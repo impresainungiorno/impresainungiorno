@@ -1,0 +1,91 @@
+.subtitle {
+  font-size: 1.188rem;
+  line-height: 28.9px;
+  font-weight: 400;
+}
+
+.title-cst {
+  font-weight: 700 !important;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.titleForm {
+  font-size: 1.813rem;
+  font-weight: 400;
+}
+
+.searchTownBox {
+  background-color: white;
+  border: 1px solid #5C6F82;
+  cursor: text;
+  outline: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  height: 60px !important;
+  border-radius: 0 !important;
+  border-color: #afc3d2 !important;
+  width: 300px;
+}
+
+.btnCustom {
+  color: white;
+  background-color: #06c;
+}
+
+.SUAPSearchBigBtnNew {
+  height: 60px !important;
+  width: 100px !important;
+  font-size: 18px !important;
+}
+
+.formContainer {
+  display: flex;
+  white-space: nowrap;
+}
+
+.searchTownBox::placeholder {
+  text-align: center;
+}
+
+.easy-autocomplete {
+  width: auto !important;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.right-col {
+  display: flex;
+}
+
+.h1NoCR {
+  font-size: 55px;
+  font-weight: lighter;
+  line-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    flex-direction: row;
+  }
+
+  .right {
+    margin-left: 0 !important;
+  }
+
+  .h1NoCR {
+    font-size: 48px !important;
+  }
+
+  .title-cst {
+    font-size: 32px !important;
+  }
+
+  .titleForm {
+    font-size: 20px !important;
+  }
+}
