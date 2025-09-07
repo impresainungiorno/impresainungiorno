@@ -571,9 +571,7 @@
 				return '?browserId=other&minifierType=&languageId=it_IT&t=1752222935683';
 			}
 
-			handleNavigationCollapse: function() {
-				console.log(true);
-			}
+
 		};
 
 		Liferay.authToken = 'ngtWlbr1';
@@ -584,11 +582,11 @@
 		Liferay.currentURLEncoded = '\x252Fweb\x252Fguest\x252Fconsulta-pratica\x253Fparam\x253DbzM2L0I3aktmQ0x4V3FGMWxvS0xYU3I4Q0R4WWw2WEphbFdGUHgzejZLTlRHQnBUd1FYT3pGVGFmZmhpZGlBSDBYTnAxT0pYS3NmbVBjTmozamtHRVhEbU9mMWthb1c2d1daOG5xd0F4TTRXcWhKaExIc3lURWViMHp6M3krTnM\x253D';
 	// ]]>
 
-		Liferay.once('buttonNavigationCollapse', () => {
-		document.body.addEventListener(
-			'click',
-			handleNavigationCollapse
-		);
+		buttonNavigationClink: function() {
+			console.log(true);
+		}
+	
+		
 	});
 	
 </script>
@@ -1895,7 +1893,7 @@ render(componentModule, propsTransformer({"small":true,"componentId":null,"icon"
 
 						</a>
 
-	<button id="buttonNavigationCollapse" aria-controls="navigationCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navigationCollapse" data-toggle="liferay-collapse" type="button">
+	<button id="buttonNavigationCollapse" onclick="buttonNavigationClink()" aria-controls="navigationCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navigationCollapse" data-toggle="liferay-collapse" type="button">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 
