@@ -3357,7 +3357,11 @@ var $ = AUI.$;var _ = AUI._;
 
 
 	function buttonNavigationClink() {
-		console.log(true);
+	  const element = document.getElementById('navigationCollapse');
+	  if (!element) {
+	    return;
+	  }
+	  element.classList.toggle('collapse');
 	}
 
 	
